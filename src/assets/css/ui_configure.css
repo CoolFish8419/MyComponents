@@ -1,0 +1,25 @@
+.content_conf{
+  position: relative;
+  display: inline-block;
+  margin-left: 24px;
+  width: 876px;
+  vertical-align: top;
+}
+.bg_conf{
+  background-color: #ffffff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+/*.cs_table tbody {
+  max-height: 411px;
+}*/
+.margin_left_18{margin-left: 18px;}
+.txt_hint_dialog{
+  position: relative;
+  width: 100%;
+  padding-left: 114px;
+  height: 20px;
+  line-height: 20px;
+  color: #FFB54C;
+}
+.margin_left_88{margin-left: 88px}

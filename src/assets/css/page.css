@@ -1,0 +1,142 @@
+/**
+ * Copyright © WarmHeart Intelligence Technology Group (Jiangsu) Co.,Ltd Company, Limited.
+ * All Rights Reserved
+ */
+/*上一页*/
+.btn_page_up{
+  display: inline-block;
+  margin-right: 15px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background: #FFFFFF url("../image/icon_pre.png") no-repeat center;
+  background-size: 10px 10px;
+  vertical-align: top;
+}
+.btn_page_up:hover, .btn_page_up:active{
+  background: #FFB54C url("../image/icon_pre_focus.png") no-repeat center;
+  background-size: 10px 10px;
+  border: 1px solid #FFB54C;
+}
+.btn_page_up_disable{
+  display: inline-block;
+  margin-right: 15px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background: #CCCCCC url("../image/icon_pre_focus.png") no-repeat center;
+  background-size: 10px 10px;
+  vertical-align: top;
+}
+/*当前页码*/
+.current_page{
+  display: inline-block;
+  _width: 10px;
+  min-width: 10px;
+  height: 32px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 32px;
+  text-align: right;
+  vertical-align: top;
+}
+/*斜线*/
+.oblique_line{
+  display: inline-block;
+  _width: 9px;
+  min-width: 9px;
+  height: 32px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: top;
+}
+/*总页码*/
+.total_page{
+  display: inline-block;
+  margin-right: 15px;
+  _width: 10px;
+  min-width: 10px;
+  height: 32px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 32px;
+  text-align: left;
+  vertical-align: top;
+}
+/*下一页*/
+.btn_page_down{
+  display: inline-block;
+  margin-right: 6px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background: #FFFFFF url("../image/icon_next.png") no-repeat center;
+  background-size: 10px 10px;
+  vertical-align: top;
+}
+.btn_page_down:hover, .btn_page_down:active{
+  background: #FFB54C url("../image/icon_next_focus.png") no-repeat center;
+  background-size: 10px 10px;
+  border: 1px solid #FFB54C;
+}
+/*下一页*/
+.btn_page_down_disable{
+  display: inline-block;
+  margin-right: 6px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  background: #CCCCCC url("../image/icon_next_focus.png") no-repeat center;
+  background-size: 10px 10px;
+  vertical-align: top;
+}
+.type_page_jump{
+  display: inline-block;
+  margin-top: 0;
+  margin-right: 6px;
+  _width: 41px;
+  min-width: 41px;
+  height: 32px;
+  font-size: 12px;
+  color: #4D7CFe;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: top;
+}
+.txt_page_jump{
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  vertical-align: top;
+}
+.unit_page{
+  display: inline-block;
+  _width: 13px;
+  min-width: 13px;
+  height: 32px;
+  font-size: 12px;
+  color: #9B9B9B;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: top;
+}
+.div_page_download {
+  position: relative;
+  margin-top: 24px;
+  height: 35px;
+  font-size: 0;
+  text-align: right;
+}

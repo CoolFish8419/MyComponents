@@ -1,0 +1,35 @@
+
+:root{
+    /*主题色//*/
+    --main-color: #00AAAA;
+    --hover-main-color: rgba(0,170,170,0.8);
+    --dark-main-color: #51E6FF;
+    --dark-hover-main-color: rgba(81,230,255,0.8);
+    --color-white: #FFFFFF;
+    /*--color-primary: #409EFF;*/
+    /*--color-success: #67C23A;*/
+    /*--color-warning: #ffb54c;*/
+    /*--color-danger: #F56C6C;*/
+
+    /*Font Color//*/
+    --font-color-primary: #333333;
+    --font-color-secondary: #666666;
+    --font-color-placeholder: #CCCCCC;
+
+    /*Background Color*/
+    --bgc-color-white: #FFFFFF;
+    --bgc-color-disabled: #F5F5F5;
+
+    /*Border Color//*/
+    --border-color-primary: #CCCCCC;
+    --border-color-secondary: #DDDDDD;
+
+    /*CheckBox Color*/
+    --checkbox-color-hover :rgba(0, 170, 170, 0.15);
+    --checkbox-font-color-disabled: #BBBBBB;
+    --checkbox-box-color-disabled: #F5F5F5;
+
+}
+
+
+

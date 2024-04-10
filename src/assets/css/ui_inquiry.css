@@ -1,0 +1,142 @@
+/*查询结果展示区上面按钮间距*/
+.ui_margin_right_12 {margin-right: 12px;}
+.ui_margin_left_24{margin-left: 24px}
+/* 查询栏 */
+.div_search {
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+/*背景颜色*/
+.bg_search{
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+/*字体位置*/
+.type_info_search{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 36px;
+    line-height: 36px;
+}
+/*输入框信息*/
+.edtxt_info_search {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+    width: 172px;
+}
+/*弹窗输入框信息*/
+.edtxt_info_dialog {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 172px;
+}
+/*详情显示信息框*/
+.txt_info_search{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 246px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+    color: #333333;
+    padding: 0 16px;
+    background-color: rgba(238,238,238,0.7);
+    box-shadow: 0 10px 60px -5px rgba(0, 0, 0, 0.05);
+}
+.ui_margin_top_12{margin-top: 12px;}
+.ui_margin_left_30{margin-left: 30px;}
+.ui_margin_left_44{margin-left: 44px;}
+.ui_margin_left_58{margin-left: 58px;}
+.ui_margin_left_72{margin-left: 72px;}
+.ui_margin_left_88{margin-left: 88px;}
+.ui_margin_left_40{margin-left: 40px;}
+.ui_width_210{width: 210px;}
+.ui_width_340{width: 340px;}
+
+/*查询按钮*/
+.btn_search {
+    float: right;
+    right: 0;
+    width: 110px;
+    height: 38px;
+    font-size: 14px;
+    padding-left: 48px;
+    line-height: 38px;
+    text-align: left;
+}
+/* 查询结果展示区 */
+.div_search_result{
+    position: relative;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 40px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+}
+/*查询结果展示区上面按钮*/
+.div_search_btn_red {
+    display: inline-block;
+    float: right;
+    top: 24px;
+    right: 24px;
+    width: 92px;
+    height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 38px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.div_search_btn_write{
+    display: inline-block;
+    float: right;
+    top: 24px;
+    right: 24px;
+    width: 92px;
+    height: 38px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 38px;
+    cursor: pointer;
+    outline: none;
+}
+.div_search_btn_write:hover{
+	color: rgba(244, 107, 69, 1) !important;
+	box-shadow: 0px 8px 16px 0px rgba(244, 107, 69, 0.25);
+}
+
+/*列表展示区域*/
+.div_table{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.div_operation_table{
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+    height: 38px;
+    font-size: 0;
+}
+.ui_edtxt_info {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    /*margin-left: 16px;*/
+    width: 340px;
+}

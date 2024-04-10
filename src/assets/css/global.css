@@ -1,0 +1,489 @@
+/**
+ * Copyright © WarmHeart Intelligence Technology Group (Jiangsu) Co.,Ltd Company, Limited.
+ * All Rights Reserved
+ */
+@font-face {
+    font-family: AlibabaPuHuiTiH;
+    src: url('https://statics.warmheart.top/fonts/Alibaba-PuHuiTi-Regular.eot');
+    src: local("Alibaba-PuHuiTi-Regular"), local("Alibaba-PuHuiTi-Regular"),
+        url('https://statics.warmheart.top/fonts/Alibaba-PuHuiTi-Regular.woff') format('woff'),
+        url('https://statics.warmheart.top/fonts/Alibaba-PuHuiTi-Regular.ttf') format('truetype');
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    outline: none;
+    display: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/*test*/
+/*.ui_page_position{*/
+/*    --main-color:#345223;*/
+/*}*/
+/* 页面 */
+body {
+    background: #F8F8F8;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '\0020';
+    visibility: hidden;
+    height: 0;
+}
+
+.ui_fl {
+    float: left;
+}
+
+.ui_fr {
+    float: right;
+}
+
+.relative {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #00aaaa !important;
+}
+
+.header_fixed {
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    position: relative;
+    padding-top: 66px;
+    margin: 0 auto;
+    width: 1160px;
+    _height: 100%;
+    min-height: 100%;
+    background-color: #F8F8F8;
+    font-size: 0;
+}
+
+/* 按钮 */
+.ui_btn_common {
+    background: #00aaaa;
+    box-shadow: 0px 8px 16px 0px rgba(0, 74, 74, 0.12);
+}
+
+.ui_btn_common:hover {
+    background: #009999;
+}
+
+/* .ui_btn_common:active{
+    background-image: linear-gradient(46deg, #C44040 0%, #E47B47 100%);
+} */
+.ui_btn_ghost {
+    color: #F46B45;
+    background: transparent;
+    /*box-shadow: 0 8px 16px 0 #FCDAD0;*/
+    border: 1px solid #f46b45;
+    border-radius: 4px;
+}
+
+
+/* 页面层级展示 */
+.ui_hierarchy {
+    position: relative;
+    width: 100%;
+    height: 16px;
+    font-size: 0;
+}
+
+.ui_txt_hierarchy {
+    position: relative;
+    display: inline-block;
+    _width: 15px;
+    min-width: 15px;
+    height: 22px;
+    font-size: 14px;
+    color: #778ca2;
+    line-height: 22px;
+    text-align: left;
+}
+
+/*橙色侧边框 小标题*/
+.ui_divider_title {
+    position: relative;
+    width: 100%;
+    height: 24px;
+}
+
+.divider_title_info {
+    position: absolute;
+    top: 2px;
+    width: 4px;
+    height: 20px;
+    background-image: linear-gradient(46deg, #FF6464 0%, #FF9967 100%);
+}
+
+.title_info {
+    position: absolute;
+    left: 12px;
+    width: 400px;
+    height: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #485465;
+}
+
+/* 弹窗 */
+.ui_div_dialog {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.ui_dialog_container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.ui_title_dialog {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #333333;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*登录*/
+.ui_btn_common_lg {
+    color: #FFFFFF;
+    background-color: #00c9c9;
+    box-shadow: 0px 8px 16px 0px
+    rgba(0, 74, 74, 0.12);
+    border-radius: 25px;
+}
+
+.ui_btn_common_lg:hover,
+.ui_btn_common_lg:active {
+    background-color: rgba(0, 201, 201, 0.8);
+    box-shadow: 0px 8px 16px 0px
+    rgba(0, 74, 74, 0.12);
+    border-radius: 25px;
+}
+
+/* 页面内容 */
+.table_tr_selected td:first-child {
+    color: #FFFFFF;
+    background-color: #FFB54C;
+}
+
+.table_tr_disabled td {
+    color: #CCCCCC;
+}
+
+.cs_ui_tr_selected td {
+    /*background-color: rgba(255, 181, 76, 0.1);*/
+    background-color: rgba(255, 181, 76, 0.15);
+
+}
+
+/*配置删除按钮*/
+.btn_cancel {
+    /* box-shadow: 0px 2px 4px 0px #6299ff;*/
+    border-radius: 4px;
+    border: solid 1px #6299ff;
+    background: rgba(0, 0, 0, 0);
+    color: #6299ff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn_cancel:hover {
+    background-color: #4A69F8;
+    color: #FFFFFF;
+}
+
+.btn_cancel:active {
+    background-color: #5469CB;
+    color: #FFFFFF;
+}
+
+/*居中弹窗*/
+.ui_dlg_container {
+    position: relative;
+    background: #FFFFFF;
+}
+
+.cs_input:hover {
+    border: 1px solid #00aaaa;
+}
+
+.cs_table thead {
+    background-color: #edf0f3 !important;
+}
+
+.cs_table tr td {
+    height: 56px !important;
+}
+
+.has_bottom {
+    padding-bottom: 80px;
+}
+
+.ui_mar_top_20 {
+    margin-top: 20px !important
+}
+
+.ui_mar_top_77 {
+    margin-top: 77px;
+}
+
+.ui_mar_top_129 {
+    margin-top: 129px;
+}
+
+.ui_mar_top_181 {
+    margin-top: 181px;
+}
+
+.margin_top_16 {
+    margin-top: 16px
+}
+
+.ui_mar_left_12 {
+    margin-left: 12px
+}
+
+.ui_mar_top_8 {
+    margin-top: 8px
+}
+
+.ui_mar_top_12 {
+    margin-top: 12px
+}
+
+.ui_mar_top_188 {
+    margin-top: 188px
+}
+
+.ui_mar_left_56 {
+    margin-left: 56px
+}
+
+.ui_mar_left_24 {
+    margin-left: 24px
+}
+
+.ui_mar_left_36 {
+    margin-left: 36px;
+}
+
+.ui_mar_left_38 {
+    margin-left: 38px;
+}
+
+.ui_mar_left_60 {
+    margin-left: 60px;
+}
+.ui_mar_left_48 {
+    margin-left: 48px;
+}
+
+.ui_mar_left_8 {
+    margin-left: 8px
+}
+
+.ui_mar_left_10 {
+    margin-left: 10px;
+}
+
+.ui_mar_left_14 {
+    margin-left: 14px;
+}
+
+.ui_mar_left_16 {
+    margin-left: 16px;
+}
+
+.ui_mar_top_16 {
+    margin-top: 16px;
+}
+
+.ui_mar_top_24 {
+    margin-top: 24px;
+}
+
+.ui_mar_top_36 {
+    margin-top: 36px;
+}
+
+.ui_mar_top_48 {
+    margin-top: 48px;
+}
+
+.ui_mar_left_32 {
+    margin-left: 32px;
+}
+
+.ui_mar_top_4 {
+    margin-top: 4px;
+}
+
+.font-weight {
+    font-weight: bold;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.ui_mar_top_32 {
+    margin-top: 32px
+}
+
+.ui_mar_top_44 {
+    margin-top: 44px
+}
+
+.ui_mar_top_28 {
+    margin-top: 28px
+}
+
+.close_div {
+    width: 24px;
+    height: 24px;
+    background: url('../image/shop/icon_circle_close_normal.png') no-repeat;
+    background-size: 24px 24px;
+    position: absolute;
+    top: -24px;
+    right: -24px;
+}
+
+.close_div:hover {
+    width: 24px;
+    height: 24px;
+    background: url('../image/shop/icon_circle_close_hover.png') no-repeat;
+    background-size: 24px 24px;
+    position: absolute;
+    top: -24px;
+    right: -24px;
+}
+
+.ui_mar_left_20 {
+    margin-left: 20px;
+}
+
+.ui_mar_top_40 {
+    margin-top: 40px
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.alert_tips_color_ff9f38 {
+    color: #ff9f38
+}
+.status {
+    width: 66px;
+    height: 20px;
+    margin: 0 auto;
+}
+.status_sign_up {
+    width: 78px;
+    height: 20px;
+    margin: 0 auto;
+}
+.status_wait {
+    background: url("../image/member/icon_wait.png") no-repeat;
+    background-size: 66px 20px;
+}
+.status_waiting {
+    background: url("../image/member/icon_waiting.png") no-repeat;
+    background-size: 66px 20px;
+}
+.status_cg {
+    background: url("../image/member/icon_cg.png") no-repeat;
+    background-size: 66px 20px;
+}
+.status_close {
+    background: url("../image/member/icon_close.png") no-repeat;
+    background-size: 66px 20px;
+}
+.status_cancel {
+    background: url("../image/member/icon_cancel.png") no-repeat;
+    background-size: 66px 20px;
+}
+.status_sign_up_1 {
+    background: url("../image/member/icon_sign_up.png") no-repeat;
+    background-size: 78px 20px;
+}
+.status_sign_up_2 {
+    background: url("../image/member/icon_not_sign_up.png") no-repeat;
+    background-size: 78px 20px;
+}
+.status_sign_up_3 {
+    background: url("../image/member/icon_over_date.png") no-repeat;
+    background-size: 78px 20px;
+}
+
+.count_length{
+    position: absolute;
+    font-size: 12px;
+    display: block;
+    color: #999;
+    bottom: 6px;
+    right:12px;
+}
